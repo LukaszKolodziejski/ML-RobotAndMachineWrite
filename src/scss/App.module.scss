@@ -8,13 +8,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  @media (min-width: 640px) {
+    flex-direction: row;
+  }
 }
 
-.Typing {
+.Robot {
+  // width: 30%;
+  padding: 3%;
   width: 50%;
+  @media (min-width: 640px) {
+    width: 30%;
+  }
+}
+.Typing {
+  // width: 50%;
   color: greenYellow;
-  font-size: 30px;
   font-weight: 700;
+  font-size: 20px;
+  width: 60%;
+  @media (min-width: 640px) {
+    width: 50%;
+    font-size: 30px;
+  }
   p {
     margin: 0;
     line-height: 150%;
@@ -38,9 +55,4 @@
   100% {
     opacity: 1;
   }
-}
-
-.Robot {
-  width: 30%;
-  padding: 3%;
 }

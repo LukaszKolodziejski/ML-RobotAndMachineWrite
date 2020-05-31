@@ -6,10 +6,10 @@ const Typing = (props) => {
   useEffect(() => {
     const box = wrapper.current;
     const text = [
-      "Wow! Cieszę się, że jesteś.^Lubię mówić do ludzi!",
-      "Jak masz na imię? Może Stanisław?",
-      "Był tu taki Stanisław kiedyś.^Spędziliśmy razem piękne wspólne chwile.",
-      "Niestety żona kazała mu odejść od monitora i wrzucić węgiel do pieca.^Mam nadzieję, że Ty nie masz pieca!",
+      "Wow! I'm glad you're here. ^ I like talking to people! ",
+      "What's your name? Maybe Michael? ",
+      "There was a Michael here once. ^We spent beautiful time together. ",
+      "Unfortunately, my wife told me to leave the monitor and throw coal into the furnace. ^I hope you don't have an oven! ",
     ];
     const speed = 50;
     let wordIndex = 0;

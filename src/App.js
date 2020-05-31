@@ -6,7 +6,7 @@ import styles from "./css/App.module.css";
 const App = () => {
   return (
     <div className={styles.App}>
-      {/* <Robot /> */}
+      <Robot />
       <Typing />
     </div>
   );

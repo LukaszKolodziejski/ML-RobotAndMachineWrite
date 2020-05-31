@@ -9,7 +9,7 @@ const Typing = (props) => {
       "Wow! I'm glad you're here. ^ I like talking to people! ",
       "What's your name? Maybe Michael? ",
       "There was a Michael here once. ^We spent beautiful time together. ",
-      "Unfortunately, my wife told me to leave the monitor and throw coal into the furnace. ^I hope you don't have an oven! ",
+      "Unfortunately, my girlfriend told me to leave the monitor and throw coal into the furnace. ^I hope you don't have an oven! ",
     ];
     const speed = 50;
     let wordIndex = 0;

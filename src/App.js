@@ -1,6 +1,6 @@
 import React from "react";
-import Robot from "./components/Robot";
 import Typing from "./components/Typing";
+import Robot from "./components/Robot";
 import styles from "./css/App.module.css";
 
 const App = () => {

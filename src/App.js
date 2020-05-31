@@ -1,24 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Robot from "./components/Robot";
+import Typing from "./components/Typing";
+import styles from "./css/App.module.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>this is my new website in React.js</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <Robot />
+      <Typing />
     </div>
   );
-}
+};
 
 export default App;

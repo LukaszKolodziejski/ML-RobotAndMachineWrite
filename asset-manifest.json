@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ML-RobotAndMachineWrite/static/css/main.04986193.chunk.css",
+    "main.js": "/ML-RobotAndMachineWrite/static/js/main.66c7d75d.chunk.js",
+    "main.js.map": "/ML-RobotAndMachineWrite/static/js/main.66c7d75d.chunk.js.map",
+    "runtime-main.js": "/ML-RobotAndMachineWrite/static/js/runtime-main.f7ea01bd.js",
+    "runtime-main.js.map": "/ML-RobotAndMachineWrite/static/js/runtime-main.f7ea01bd.js.map",
+    "static/js/2.106b09af.chunk.js": "/ML-RobotAndMachineWrite/static/js/2.106b09af.chunk.js",
+    "static/js/2.106b09af.chunk.js.map": "/ML-RobotAndMachineWrite/static/js/2.106b09af.chunk.js.map",
+    "index.html": "/ML-RobotAndMachineWrite/index.html",
+    "precache-manifest.452758ce338a0fa3be2c6ec1672fece3.js": "/ML-RobotAndMachineWrite/precache-manifest.452758ce338a0fa3be2c6ec1672fece3.js",
+    "service-worker.js": "/ML-RobotAndMachineWrite/service-worker.js",
+    "static/css/main.04986193.chunk.css.map": "/ML-RobotAndMachineWrite/static/css/main.04986193.chunk.css.map",
+    "static/js/2.106b09af.chunk.js.LICENSE.txt": "/ML-RobotAndMachineWrite/static/js/2.106b09af.chunk.js.LICENSE.txt",
+    "static/media/robot.svg": "/ML-RobotAndMachineWrite/static/media/robot.711dcbaa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7ea01bd.js",
+    "static/js/2.106b09af.chunk.js",
+    "static/css/main.04986193.chunk.css",
+    "static/js/main.66c7d75d.chunk.js"
+  ]
+}

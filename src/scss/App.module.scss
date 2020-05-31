@@ -1,0 +1,46 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  background-color: #111;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Typing {
+  width: 50%;
+  color: greenYellow;
+  font-size: 30px;
+  font-weight: 700;
+  p {
+    margin: 0;
+    line-height: 150%;
+    text-shadow: 20px 100px 20px green;
+    &::before {
+      content: "> ";
+    }
+    &:nth-last-of-type(1)::after {
+      content: "_";
+      animation: cursor 0.3s infinite alternate;
+    }
+  }
+}
+
+@keyframes cursor {
+  0%,
+  30% {
+    opacity: 0;
+  }
+  70%,
+  100% {
+    opacity: 1;
+  }
+}
+
+.Robot {
+  width: 30%;
+  padding: 3%;
+}
